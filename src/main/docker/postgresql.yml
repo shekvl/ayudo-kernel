@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ayudokernel-postgresql:
+    image: postgres:11.6
+    # volumes:
+    #     - ~/volumes/jhipster/ayudoKernel/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=ayudoKernel
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
