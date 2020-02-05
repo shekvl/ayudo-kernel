@@ -42,6 +42,7 @@ public class CacheConfiguration {
             createCache(cm, at.aau.ayudo.domain.User.class.getName());
             createCache(cm, at.aau.ayudo.domain.Authority.class.getName());
             createCache(cm, at.aau.ayudo.domain.User.class.getName() + ".authorities");
+            createCache(cm, at.aau.ayudo.domain.Person.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
